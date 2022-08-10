@@ -34,6 +34,11 @@ namespace Task_1
             Building building = new Building("Гагарина, 6", 72, 36, 50);
             Console.WriteLine(building.Print());
             //Console.WriteLine(building.Address);
+            Console.WriteLine();
+
+            MultiBuilding multiBuilding = new MultiBuilding("Ленина, 12", 54, 18, 15, 5);
+            Console.WriteLine(multiBuilding.Print());
+            Console.WriteLine();
             Console.ReadKey();
         }
     }
