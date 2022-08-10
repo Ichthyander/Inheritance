@@ -31,6 +31,10 @@ namespace Task_1
     {
         static void Main(string[] args)
         {
+            Building building = new Building("Гагарина, 6", 72, 36, 50);
+            Console.WriteLine(building.Print());
+            //Console.WriteLine(building.Address);
+            Console.ReadKey();
         }
     }
 }
